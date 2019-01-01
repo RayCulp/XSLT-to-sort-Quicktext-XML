@@ -5,7 +5,7 @@ Quicktext is an extremely useful extension for the Thunderbird email client that
 
 This XSLT file is an attempt to solve that problem using a workaround. You can export your templates as XML, sort them using this XSLT, and then re-import them back into the extension.
 
-Disclaimer: I'm not an expert for XSLT, so there are probably more elegant ways to code this. It gets the job done for me, but I can't guarantee it will work for you.
+Disclaimer: I'm not an expert for XSLT, so there are probably more elegant ways to code this. It gets the job done for me, but I can't guarantee it will work for you. This process does NOT sort the order of the categories or folders that contain the templates. It only sorts the order of the templates within those categories.
 
 ## How to use this XSLT file on Windows
 1. Download msxsl.exe from https://www.microsoft.com/en-us/download/details.aspx?id=21714
