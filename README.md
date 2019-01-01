@@ -1,7 +1,7 @@
 # XSLT-to-sort-Quicktext-XML
 An XSLT file to sort Quicktext XML 
 
-Quicktext is an extremely useful extension for the Thunderbird email client that allows you to create and quickly insert re-usable text blocks into emails. It provides a wide range of functionality, including variables, scripts and attachments, but one feature that it does not have as of 01.01.2019 is the ability to sort the templates. If you have a lot of templates, this can make it hard to find the one you need quickly.
+Quicktext (https://addons.thunderbird.net/en-US/thunderbird/addon/quicktext/) is an extremely useful extension for the Thunderbird email client that allows you to create and quickly insert re-usable text blocks into emails. It provides a wide range of functionality, including variables, scripts and attachments, but one feature that it does not have as of 01.01.2019 is the ability to sort the templates. If you have a lot of templates, this can make it hard to find the one you need quickly.
 
 This XSLT file is an attempt to solve that problem using a workaround. You can export your templates as XML, sort them using this XSLT, and then re-import them back into the extension.
 
