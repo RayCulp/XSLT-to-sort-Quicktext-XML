@@ -12,30 +12,30 @@ statement ignores CDATA tags and just copies the raw text to the XML output. -->
 
 <xsl:template match="/">
 
-	<quicktext version="2">
+<quicktext version="2">
 
-		<filetype>templates</filetype>
+<filetype>templates</filetype>
 
-		<xsl:for-each select="quicktext/menu">
+<xsl:for-each select="quicktext/menu">
 			
-			<menu>
+<menu>
 				
-				<xsl:for-each select="title">
-					<xsl:copy-of select="."/> 
-				</xsl:for-each>
+<xsl:for-each select="title">
+<xsl:copy-of select="."/> 
+</xsl:for-each>
 				
-				<texts>
-					<xsl:for-each select="texts/text">
-						<xsl:sort select="name"/>
-						<xsl:copy-of select="."/> 
-					</xsl:for-each>
-				</texts>			
+<texts>
+<xsl:for-each select="texts/text">
+<xsl:sort select="name"/>
+<xsl:copy-of select="."/> 
+</xsl:for-each>
+</texts>			
 
-			</menu>
+</menu>
 
-		</xsl:for-each>
+</xsl:for-each>
 
-	</quicktext>
+</quicktext>
 
 </xsl:template>
 
